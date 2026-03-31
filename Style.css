@@ -1,0 +1,122 @@
+/* Aplica a TODOS los elementos */
+* {
+  box-sizing: border-box; /* Hace que el padding y border no aumenten el tamaño total del elemento */
+}
+
+/* Estilos generales del cuerpo de la página */
+body {
+  font-family: Arial, sans-serif; /* Fuente principal del sitio */
+  background-color: #3a743f; /* Color de fondo (verde) */
+  color: #222; /* Color del texto */
+  margin: 0; /* Elimina márgenes por defecto del navegador */
+  padding: 20px; /* Espacio interno alrededor del contenido */
+}
+
+/* Contenedor principal del CV */
+.cv-container {
+  max-width: 900px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  background-color: white; /* Fondo blanco */
+  padding: 30px; /* Espaciado interno */
+  border-radius: 12px; /* Bordes redondeados */
+}
+
+/* Encabezado */
+header {
+  text-align: center; /* Centra el texto */
+  border-bottom: 2px solid #dbe2ea; /* Línea inferior */
+  padding-bottom: 20px; /* Espacio debajo del contenido */
+  margin-bottom: 30px; /* Separación con lo de abajo */
+}
+
+/* Título principal */
+h1 {
+  color: #1d4ed8; /* Color azul */
+  font-size: 36px; /* Tamaño grande */
+  margin-bottom: 10px; /* Espacio debajo */
+}
+
+/* Párrafos dentro del header */
+header p {
+  font-size: 18px;
+  color: #555; /* Gris más suave */
+}
+
+/* Cada sección del CV */
+section {
+  margin-bottom: 25px; /* Espacio entre secciones */
+}
+
+/* Subtítulos */
+h2 {
+  color: #0f172a;
+  font-size: 24px;
+  border-left: 5px solid #2563eb; /* Línea decorativa a la izquierda */
+  padding-left: 10px; /* Espacio entre la línea y el texto */
+  margin-bottom: 15px;
+}
+
+/* Párrafos generales */
+p {
+  line-height: 1.6; /* Espaciado entre líneas (mejora lectura) */
+  margin: 8px 0;
+}
+
+/* Lista */
+ul {
+  padding-left: 20px; /* Sangría de la lista */
+}
+
+/* Elementos de lista */
+li {
+  margin-bottom: 8px; /* Espacio entre ítems */
+}
+
+/* Links */
+a {
+  color: #2563eb; /* Azul */
+  text-decoration: none; /* Quita el subrayado */
+}
+
+/* Cuando pasas el mouse sobre links */
+a:hover {
+  text-decoration: underline; /* Aparece subrayado */
+}
+
+/* Imagen (foto de perfil) */
+img {
+  width: 150px; /* Tamaño fijo */
+  border-radius: 50%; /* Hace la imagen circular */
+  margin-top: 15px;
+  border: 3px solid #2563eb; /* Borde azul */
+}
+
+/* Tabla */
+table {
+  width: 100%; /* Ocupa todo el ancho */
+  border-collapse: collapse; /* Une los bordes de las celdas */
+  margin-top: 10px;
+}
+
+/* Celdas de tabla */
+th,
+td {
+  border: 1px solid #cbd5e1; /* Bordes de las celdas */
+  padding: 10px; /* Espaciado interno */
+  text-align: left; /* Alineación del texto */
+}
+
+/* Encabezados de tabla */
+th {
+  background-color: #e2e8f0; /* Fondo gris claro */
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #dbe2ea; /* Línea superior */
+  color: #666;
+  font-size: 14px;
+}
