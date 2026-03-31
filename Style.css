@@ -120,3 +120,12 @@ footer {
   color: #666;
   font-size: 14px;
 }
+#miCarousel {
+  max-width: 400px; /* ancho máximo del carrusel */
+  margin: 0 auto;   /* lo centra */
+}
+
+#miCarousel img {
+  height: 300px;        /* altura fija */
+  object-fit: cover;    /* ajusta la imagen sin deformarla */
+}
